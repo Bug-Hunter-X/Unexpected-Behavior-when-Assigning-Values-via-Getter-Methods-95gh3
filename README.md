@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in Ruby related to how instance variables are handled when only a getter method is defined.  The example shows that directly assigning a value via the getter method does not update the instance variable.  The solution provides the correct way to modify instance variables, which is by defining a corresponding setter method.
